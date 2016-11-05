@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qV5-Si-5oo">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="dvL-aZ-oDa"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ior-nh-dGj">
+                                <state key="normal" title="我爱你" image="Image">
+                                    <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jCf-kr-vPU">
+                                <state key="normal" title="我爱你" image="Image">
+                                    <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jPs-Wm-4J8">
+                                <state key="normal" title="我爱你" image="Image">
+                                    <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="trC-Gb-BLP">
+                                <state key="normal" title="我爱你" image="Image">
+                                    <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PW0-2e-bIv">
+                                <state key="normal" title="我爱你" image="Image">
+                                    <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pgW-nd-TkZ">
+                                <state key="normal" title="我爱你" image="Image">
+                                    <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8jl-Ul-j68">
+                                <state key="normal" title="我爱你" image="Image">
+                                    <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ud8-pX-OR1">
+                                <state key="normal" title="我爱你" image="Image">
+                                    <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="左边没有扩充，右边扩充完毕" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bEv-2A-2Hl">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mxc-43-UlQ">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="S7i-RG-2HD"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bEv-2A-2Hl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5JI-tt-jAE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jPs-Wm-4J8" secondAttribute="trailing" constant="65" id="5m9-Nm-j3B"/>
+                            <constraint firstItem="jPs-Wm-4J8" firstAttribute="top" secondItem="8jl-Ul-j68" secondAttribute="bottom" constant="53" id="9Ji-SM-XEZ"/>
+                            <constraint firstItem="Ud8-pX-OR1" firstAttribute="top" secondItem="PW0-2e-bIv" secondAttribute="bottom" constant="68" id="G34-cq-Xlc"/>
+                            <constraint firstItem="trC-Gb-BLP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="35" id="Gqn-Wt-h75"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="PW0-2e-bIv" secondAttribute="trailing" constant="65" id="Ja1-aL-qET"/>
+                            <constraint firstItem="mxc-43-UlQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="JfY-ve-60C"/>
+                            <constraint firstItem="mxc-43-UlQ" firstAttribute="top" secondItem="bEv-2A-2Hl" secondAttribute="bottom" constant="8" id="Lig-YJ-1HX"/>
+                            <constraint firstItem="bEv-2A-2Hl" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="43" id="MO8-L5-Ifb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ud8-pX-OR1" secondAttribute="trailing" constant="65" id="P8I-oe-BdB"/>
+                            <constraint firstItem="mxc-43-UlQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="R9J-OE-QyK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8jl-Ul-j68" secondAttribute="trailing" constant="65" id="S4o-5T-hk5"/>
+                            <constraint firstItem="Ior-nh-dGj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="51" id="T9G-bP-pqp"/>
+                            <constraint firstItem="qV5-Si-5oo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="X6y-70-uCA"/>
+                            <constraint firstItem="qV5-Si-5oo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dat-o6-rSD"/>
+                            <constraint firstItem="qV5-Si-5oo" firstAttribute="top" secondItem="Ud8-pX-OR1" secondAttribute="bottom" constant="27" id="gqr-gi-Mqv"/>
+                            <constraint firstItem="jCf-kr-vPU" firstAttribute="top" secondItem="Ior-nh-dGj" secondAttribute="bottom" constant="53" id="jfx-rh-eyd"/>
+                            <constraint firstItem="Ior-nh-dGj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="118" id="jkM-Aq-n9A"/>
+                            <constraint firstAttribute="trailing" secondItem="mxc-43-UlQ" secondAttribute="trailing" id="l4k-JL-6us"/>
+                            <constraint firstItem="PW0-2e-bIv" firstAttribute="top" secondItem="jPs-Wm-4J8" secondAttribute="bottom" constant="59" id="lp2-Zt-TYz"/>
+                            <constraint firstItem="trC-Gb-BLP" firstAttribute="top" secondItem="jCf-kr-vPU" secondAttribute="bottom" constant="59" id="n2N-6m-Rza"/>
+                            <constraint firstItem="pgW-nd-TkZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="35" id="oow-3K-aLs"/>
+                            <constraint firstAttribute="trailing" secondItem="qV5-Si-5oo" secondAttribute="trailing" id="scl-qP-VYf"/>
+                            <constraint firstItem="pgW-nd-TkZ" firstAttribute="top" secondItem="trC-Gb-BLP" secondAttribute="bottom" constant="68" id="xhK-4F-npO"/>
+                            <constraint firstItem="8jl-Ul-j68" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="118" id="yJf-kn-3A0"/>
+                            <constraint firstItem="jCf-kr-vPU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="51" id="zFx-Jx-UEj"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="Ior-nh-dGj" id="BiR-RS-06x"/>
+                        <outlet property="button1" destination="8jl-Ul-j68" id="Qgc-rv-swx"/>
+                        <outlet property="button2" destination="jCf-kr-vPU" id="sID-pu-bgi"/>
+                        <outlet property="button3" destination="jPs-Wm-4J8" id="Xtq-La-hen"/>
+                        <outlet property="button4" destination="trC-Gb-BLP" id="vsg-un-M69"/>
+                        <outlet property="button5" destination="PW0-2e-bIv" id="Ini-vR-Bre"/>
+                        <outlet property="button6" destination="pgW-nd-TkZ" id="3q9-bp-Dwm"/>
+                        <outlet property="button7" destination="Ud8-pX-OR1" id="mJ6-1G-YuB"/>
+                        <outlet property="dashLine" destination="qV5-Si-5oo" id="LEn-Gh-VIc"/>
+                        <outlet property="dashLine1" destination="mxc-43-UlQ" id="Ump-hI-zUx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20" y="82.3088455772114"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Image" width="14" height="13"/>
+    </resources>
+</document>
